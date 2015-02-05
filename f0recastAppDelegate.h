@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <BWToolkitFramework/BWToolkitFramework.h>
+//#import <BWToolkitFramework/BWToolkitFramework.h>
 #import "MobileDevice.h"
 
 @interface f0recastAppDelegate : NSObject {
@@ -23,9 +23,9 @@
 	IBOutlet NSTextField *isUntethered;
 	IBOutlet NSTextField *deviceConnectionField;
 	
-	IBOutlet BWHyperlinkButton *ultrasn0wLink;
-	IBOutlet BWHyperlinkButton *blacksn0wLink;
-	IBOutlet BWHyperlinkButton *BootNeuterLink;
+	//IBOutlet BWHyperlinkButton *ultrasn0wLink;
+	//IBOutlet BWHyperlinkButton *blacksn0wLink;
+	//IBOutlet BWHyperlinkButton *BootNeuterLink;
 }
 
 - (void)populateData;

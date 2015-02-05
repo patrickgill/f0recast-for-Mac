@@ -102,13 +102,13 @@ void notification_callback(struct am_device_notification_callback_info *info, in
 		}
 		if ([basebandVersionText isEqualToString:@"04.26.08"]) {
 			[isUnlockable setStringValue:@"Yes"];
-			[ultrasn0wLink setHidden:NO];
+			//[ultrasn0wLink setHidden:NO];
 		} else if ([basebandVersionText isEqualToString:@"05.11.07"]) {
 			[isUnlockable setStringValue:@"Yes"];
-			[blacksn0wLink setHidden:NO];
+			//[blacksn0wLink setHidden:NO];
 		} else if ([basebandVersionText isEqualToString:@"04.05.04_G"]) {
 			[isUnlockable setStringValue:@"Yes"];
-			[BootNeuterLink setHidden:NO];
+			//[BootNeuterLink setHidden:NO];
 		} else {
 			[isUnlockable setStringValue:@"No"];
 		}
@@ -128,9 +128,9 @@ void notification_callback(struct am_device_notification_callback_info *info, in
 	[isUnlockable setStringValue:@""];
 	[isJailbreakable setStringValue:@""];
 	[isUntethered setStringValue:@""];
-	[ultrasn0wLink setHidden:YES];
-	[blacksn0wLink setHidden:YES];
-	[BootNeuterLink setHidden:YES];
+	///[ultrasn0wLink setHidden:YES];
+	///[blacksn0wLink setHidden:YES];
+	///[BootNeuterLink setHidden:YES];
 	[deviceConnectionField setStringValue:@"No Device Connected"];
 }
 
