@@ -12,6 +12,6 @@ This is released under the GPL v3.
 ~[iH8sn0w](https://github.com/iH8sn0w/)
 
 -----------------
-Update
+Updated
 -----------------
-Updated for modern OS X by Patrick Gill ([patto2k](https://github.com/patto2k/))
+Updated for latest OS X versions by Patrick Gill ([patto2k](https://github.com/patto2k/))

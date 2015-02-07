@@ -246,6 +246,7 @@
 				GCC_PREFIX_HEADER = f0recast_Prefix.pch;
 				INFOPLIST_FILE = "f0recast-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = f0recast;
 				SDKROOT = macosx;
 			};
@@ -268,6 +269,7 @@
 				GCC_PREFIX_HEADER = f0recast_Prefix.pch;
 				INFOPLIST_FILE = "f0recast-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = f0recast;
 				SDKROOT = macosx;
 			};
